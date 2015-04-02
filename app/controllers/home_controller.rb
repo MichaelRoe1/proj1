@@ -4,5 +4,4 @@ class HomeController < ApplicationController
     trainerless_pokemon = Pokemon.where(trainer:nil)
     @pokemon = trainerless_pokemon.sample
   end
-
 end
